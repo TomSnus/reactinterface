@@ -18,7 +18,7 @@ class AddAppointments extends React.Component {
     }
 
     handleAdd(e) {
-      e.preventDefaults();
+      e.preventDefault();
       let tempApt = {
         petName: this.state.petName,
         ownerName: this.state.ownerName, 
